@@ -9,7 +9,7 @@
     "build": "electron-builder",
     "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start"
   },
-  "author": "",
+  "author": "SilverCore",
   "license": "ISC",
   "description": "",
   "dependencies": {

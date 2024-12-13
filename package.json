@@ -1,7 +1,7 @@
 {
   "name": "sound-detector",
   "productName": "Silver-SoundDetector",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

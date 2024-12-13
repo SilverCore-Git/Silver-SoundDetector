@@ -1,0 +1,40 @@
+name: Build Electron App
+
+on:
+  push:
+    branches:
+      - main    # Ou remplacez par la branche sur laquelle vous souhaitez que le workflow soit déclenché
+  pull_request:
+    branches:
+      - main    # Si vous souhaitez qu'il s'exécute lors des pull requests
+
+jobs:
+  build:
+    runs-on: ubuntu-latest    # Vous pouvez aussi choisir windows-latest ou macos-latest selon vos besoins
+
+    steps:
+    # Étape 1: Check out le code
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Étape 2: Installer Node.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'   # Remplacez par la version Node.js que vous utilisez
+
+    # Étape 3: Installer les dépendances du projet
+    - name: Install dependencies
+      run: npm install
+
+    # Étape 4: Exécuter le build de l'application
+    - name: Build Electron app
+      run: npm run build
+
+    # Étape 5: (optionnel) Déployer ou télécharger l'artifact du build
+    # Si vous souhaitez, vous pouvez télécharger les fichiers générés en tant qu'artifacts
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: electron-build
+        path: path/to/your/build/folder  # Remplacez par le chemin vers vos fichiers de build

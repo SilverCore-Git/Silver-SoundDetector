@@ -1,6 +1,6 @@
 # Sivler SoundDetector
----
 [Vous pouvez nous aider](https://tipeee.com/silverdium).
+---
 
 ## À propos
 - **Copyright :** 2024 [SilverCore](https://core.silverdium.fr)

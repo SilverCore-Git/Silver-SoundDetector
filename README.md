@@ -13,6 +13,17 @@
 Silver Sounddetector est une app nodejs créer par [SilverCore](https://core.silverdium.fr).
 Son but est de détécter le son du micro en db pour afficher une alert quand celui ci est trop élever.
 
+## Utilisation
+
+- Installer les dependencies :
+  ```npm install``` | ```npm i``` 
+
+- Lancer l'app :
+  ```npm start```
+
+- Lancer le build :
+  *Dans un CMD administrateur !*
+  ```npm run build```
 
 ---
 Merci de soutenir les projets [SilverCore](https://core.silverdium.fr) !<br>

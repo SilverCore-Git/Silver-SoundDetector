@@ -15,15 +15,15 @@ Son but est de détécter le son du micro en db pour afficher une alert quand ce
 
 ## Utilisation
 
-- **Installer les dependencies :**
-  ```npm install``` | ```npm i``` 
+- **Installer les dependencies :**<br>
+  ```npm install``` | ```npm i``` <br>
 
-- **Lancer l'app :**
-  ```npm start```
+- **Lancer l'app :**<br>
+  ```npm start```<br>
 
-- **Lancer le build :**
-  *Dans un CMD administrateur !*
-  ```npm run build```
+- **Lancer le build :**<br>
+  *Dans un CMD administrateur !*<br>
+  ```npm run build```<br>
 
 ---
 Merci de soutenir les projets [SilverCore](https://core.silverdium.fr) !<br>
